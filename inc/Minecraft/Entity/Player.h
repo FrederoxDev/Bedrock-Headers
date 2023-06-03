@@ -7,7 +7,6 @@
 
 class ShieldItem;
 class EnderChestContainer;
-class AutomaticID<Dimension, int>;
 class PacketSender;
 class SerializedSkin;
 class BlockSource;

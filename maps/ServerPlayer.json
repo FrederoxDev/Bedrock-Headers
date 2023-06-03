@@ -1,0 +1,131 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "??0ServerPlayer@@QEAA@AEAVLevel@@AEAVPacketSender@@AEAVNetworkHandler@@AEAVActiveTransfersManager@Server@ClientBlobCache@@W4GameType@@AEBVNetworkIdentifier@@EV?$function@$$A6AXAEAVServerPlayer@@@Z@std@@VUUID@mce@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$unique_ptr@VCertificate@@U?$default_delete@VCertificate@@@std@@@std@@H@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?selectItem@ServerPlayer@@QEAAXAEBVItemStack@@AEBH@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?sendMobEffectPackets@ServerPlayer@@QEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?findClientChunkRadius@ServerPlayer@@QEBAII@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?setClientChunkRadius@ServerPlayer@@QEAAXI@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?checkCheating@ServerPlayer@@QEAAXAEBVVec3@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_setContainerManager@ServerPlayer@@AEAAXV?$shared_ptr@VIContainerManager@@@std@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_updateNearbyActors@ServerPlayer@@AEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_scanForNearbyActors@ServerPlayer@@AEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_removeNearbyEntities@ServerPlayer@@AEAAXXZ"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2b0dff0", 
+            "functions": [
+                "?initializeComponents@ServerPlayer@@UEAAXW4InitializationMethod@Actor@@AEBVVariantParameterList@@@Z", 
+                "", 
+                "", 
+                "?normalTick@ServerPlayer@@UEAAXXZ", 
+                "?isValidTarget@ServerPlayer@@UEBA_NPEAVActor@@@Z", 
+                "?handleEntityEvent@ServerPlayer@@UEAAXW4ActorEvent@@H@Z", 
+                "?setArmor@ServerPlayer@@UEAAXW4ArmorSlot@@AEBVItemStack@@@Z", 
+                "?load@ServerPlayer@@UEAA_NAEBVCompoundTag@@AEAVDataLoadHelper@@@Z", 
+                "?canChangeDimensions@ServerPlayer@@UEBA_NXZ", 
+                "?changeDimension@ServerPlayer@@UEAAXV?$AutomaticID@VDimension@@H@@_N@Z", 
+                "?getControllingPlayer@ServerPlayer@@UEBA?AUActorUniqueID@@XZ", 
+                "?checkFallDamage@ServerPlayer@@UEAAXM_N@Z", 
+                "?handleFallDistanceOnServer@ServerPlayer@@UEAAXM_N@Z", 
+                "?onEffectAdded@ServerPlayer@@MEAAXAEAVMobEffectInstance@@@Z", 
+                "?onEffectUpdated@ServerPlayer@@MEAAXAEBVMobEffectInstance@@@Z", 
+                "?onEffectRemoved@ServerPlayer@@MEAAXAEAVMobEffectInstance@@@Z", 
+                "?die@ServerPlayer@@UEAAXAEBVActorDamageSource@@@Z", 
+                "?knockback@ServerPlayer@@UEAAXPEAVActor@@HMMMMM@Z", 
+                "?aiStep@ServerPlayer@@UEAAXXZ", 
+                "?hurtArmor@ServerPlayer@@UEAAXH@Z", 
+                "?sendInventory@ServerPlayer@@UEAAX_N@Z", 
+                "?prepareRegion@ServerPlayer@@UEAAXAEAVChunkSource@@@Z", 
+                "?destroyRegion@ServerPlayer@@UEAAXXZ", 
+                "?suspendRegion@ServerPlayer@@UEAAXXZ", 
+                "?changeDimensionWithCredits@ServerPlayer@@UEAAXV?$AutomaticID@VDimension@@H@@@Z", 
+                "?tickWorld@ServerPlayer@@UEAAHAEBUTick@@@Z", 
+                "?frameUpdate@ServerPlayer@@UEAAXAEAVFrameUpdateContextBase@@@Z", 
+                "?checkMovementStats@ServerPlayer@@UEAAXAEBVVec3@@@Z", 
+                "?setPermissions@ServerPlayer@@UEAAXW4CommandPermissionLevel@@@Z", 
+                "?openContainer@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openContainer@ServerPlayer@@UEAAXAEBUActorUniqueID@@@Z", 
+                "?openFurnace@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openBlastFurnace@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openSmoker@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openEnchanter@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openAnvil@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openGrindstone@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openBrewingStand@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openHopper@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openHopper@ServerPlayer@@UEAAXAEBUActorUniqueID@@@Z", 
+                "?openDispenser@ServerPlayer@@UEAAXAEBVBlockPos@@_N@Z", 
+                "?openBeacon@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openPortfolio@ServerPlayer@@UEAAXXZ", 
+                "?openCommandBlock@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openCommandBlockMinecart@ServerPlayer@@UEAAXAEBUActorUniqueID@@@Z", 
+                "?openHorseInventory@ServerPlayer@@UEAAXAEBUActorUniqueID@@@Z", 
+                "?openTrading@ServerPlayer@@UEAAXAEBUActorUniqueID@@_N@Z", 
+                "", 
+                "?openInventory@ServerPlayer@@UEAAXXZ", 
+                "?openStructureEditor@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openLabTable@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openElementConstructor@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openCompoundCreator@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?openMaterialReducer@ServerPlayer@@UEAAXAEBVBlockPos@@@Z", 
+                "?displayTextObjectMessage@ServerPlayer@@UEAAXAEBVTextObjectRoot@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z", 
+                "", 
+                "?displayWhisperMessage@ServerPlayer@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@000@Z", 
+                "?stopSleepInBed@ServerPlayer@@UEAAX_N0@Z", 
+                "?isHostingPlayer@ServerPlayer@@UEBA_NXZ", 
+                "?isLoading@ServerPlayer@@UEBA_NXZ", 
+                "?isPlayerInitialized@ServerPlayer@@UEBA_NXZ", 
+                "?setPlayerGameType@ServerPlayer@@UEAAXW4GameType@@@Z", 
+                "?setContainerData@ServerPlayer@@UEAAXAEAVIContainerManager@@HH@Z", 
+                "?slotChanged@ServerPlayer@@UEAAXAEAVIContainerManager@@HAEBVItemStack@@1_N@Z", 
+                "?refreshContainer@ServerPlayer@@UEAAXAEAVIContainerManager@@@Z", 
+                "?deleteContainerManager@ServerPlayer@@UEAAXXZ", 
+                "?isPositionRelevant@ServerPlayer@@UEAA_NV?$AutomaticID@VDimension@@H@@AEBVBlockPos@@@Z", 
+                "?isEntityRelevant@ServerPlayer@@UEAA_NAEBVActor@@@Z", 
+                "?isTeacher@ServerPlayer@@UEBA_NXZ", 
+                "?onSuspension@ServerPlayer@@UEAAXXZ", 
+                "?onLinkedSlotsChanged@ServerPlayer@@UEAAXXZ", 
+                "?sendInventoryTransaction@ServerPlayer@@UEBAXAEBVInventoryTransaction@@@Z", 
+                "", 
+                "?sendNetworkPacket@ServerPlayer@@UEBAXAEAVPacket@@@Z", 
+                "?getPlayerEventCoordinator@ServerPlayer@@UEAAAEAVPlayerEventCoordinator@@XZ", 
+                "?getMoveInputHandler@ServerPlayer@@UEAAPEAVMoveInputHandler@@XZ", 
+                "?getInputMode@ServerPlayer@@UEBA?AW4InputMode@@XZ", 
+                "?getPlayMode@ServerPlayer@@UEBA?AW4ClientPlayMode@@XZ", 
+                "?reportMovementTelemetry@ServerPlayer@@UEAAXW4MovementEventType@@@Z"
+            ], 
+            "name": "ServerPlayer"
+        }
+    ]
+}
