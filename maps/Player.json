@@ -219,7 +219,7 @@
     ], 
     "vtable": [
         {
-            "address": "", 
+            "address": "0x2b59c90", 
             "functions": [
                 "?reloadHardcoded@Player@@UEAAXW4InitializationMethod@Actor@@AEBVVariantParameterList@@@Z", 
                 "?initializeComponents@Player@@UEAAXW4InitializationMethod@Actor@@AEBVVariantParameterList@@@Z", 

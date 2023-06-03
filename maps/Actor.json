@@ -499,7 +499,7 @@
     ], 
     "vtable": [
         {
-            "address": "", 
+            "address": "0x2b14130", 
             "functions": [
                 "?reloadHardcoded@Actor@@MEAAXW4InitializationMethod@1@AEBVVariantParameterList@@@Z", 
                 "?reloadHardcodedClient@Actor@@MEAAXW4InitializationMethod@1@AEBVVariantParameterList@@@Z", 
