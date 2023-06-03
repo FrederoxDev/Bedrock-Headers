@@ -1,0 +1,14 @@
+{
+    "includes": [
+        "Minecraft/Blocks/BlockTypeRegistry.h"
+    ],
+    "functions": [
+        {
+            "name": "?lookupByName@BlockTypeRegistry@@SA?AV?$WeakPtr@VBlockLegacy@@@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+            "address": "0x16D9640"
+        }
+    ],
+    "variables": {
+        "std::unordered_map<std::string, SharedPtr<BlockLegacy>>& BlockTypeRegistry::mBlockLookupMap": "0x3061390"
+    }
+}

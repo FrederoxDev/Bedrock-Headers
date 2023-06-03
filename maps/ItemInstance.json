@@ -1,0 +1,43 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "??0ItemInstance@@QEAA@XZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ItemInstance@@QEAA@AEBVBlockLegacy@@H@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ItemInstance@@QEAA@AEBVBlock@@HPEBVCompoundTag@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ItemInstance@@QEAA@AEBVItem@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ItemInstance@@QEAA@AEBVItem@@H@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ItemInstance@@QEAA@AEBVItem@@HH@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?fromTag@ItemInstance@@SA?AV1@AEBVCompoundTag@@@Z"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2b769d8",
+            "functions": [
+                "??1ItemInstance@@UEAA@XZ",
+                "?reinit@ItemInstance@@MEAAXAEBVItem@@HH@Z",
+                "?reinit@ItemInstance@@UEAAXAEBVBlockLegacy@@H@Z"
+            ],
+            "name": "ItemInstance"
+        }
+    ]
+}

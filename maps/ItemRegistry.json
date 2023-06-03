@@ -1,0 +1,23 @@
+{
+	"functions": [
+		{
+			"name": "?registerItem@ItemRegistry@@SAXV?$SharedPtr@VItem@@@@@Z",
+			"address": "0x15692F0"
+		},
+		{
+			"name": "?getItem@ItemRegistry@@SA?AV?$WeakPtr@VItem@@@@F@Z",
+			"address": "0x1569180"
+		},
+		{
+			"name": "?lookupByName@ItemRegistry@@SA?AV?$WeakPtr@VItem@@@@AEAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+			"address": "0x156aa50"
+		}
+	],
+	"variables": {
+		"short& ItemRegistry::mMaxItemID": "0x30507BC"
+	},
+	"includes": [
+		"Minecraft/Items/ItemRegistry.h",
+		"Minecraft/Memory/SharedPtr.h"
+	]
+}

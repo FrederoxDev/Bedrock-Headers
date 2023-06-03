@@ -1,0 +1,16 @@
+{
+	"functions": [
+		{
+			"name": "?registerBlockGraphics@BlockGraphics@@SAAEAV1@AEAV?$vector@VValue@Json@@V?$allocator@VValue@Json@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@W4BlockShape@@@Z",
+			"address": "0x099C240"
+		},
+		{
+			"name": "?registerLooseBlockGraphics@BlockGraphics@@SAXAEAV?$vector@VValue@Json@@V?$allocator@VValue@Json@@@std@@@std@@AEBVBlockPalette@@@Z",
+			"address": "0x099CA10"
+		},
+		{
+			"name": "?getForBlock@BlockGraphics@@SAPEBV1@AEBVBlock@@@Z",
+			"address": "0x0999410"
+		}
+	]
+}

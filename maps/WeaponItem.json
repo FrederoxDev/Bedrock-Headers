@@ -1,0 +1,24 @@
+{
+    "functions": [], 
+    "vtable": [
+        {
+            "parent": "Item",
+            "address": "0x155e960",
+            "functions": [
+                "",
+                "?canDestroySpecial@WeaponItem@@UEBA_NAEBVBlock@@@Z",
+                "?getAttackDamage@WeaponItem@@UEBAHXZ",
+                "?isHandEquipped@WeaponItem@@UEBA_NXZ",
+                "?canDestroyInCreative@WeaponItem@@UEBA_NXZ",
+                "?appendFormattedHovertext@WeaponItem@@UEBAXAEBVItemStackBase@@AEAVLevel@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z",
+                "?isValidRepairItem@WeaponItem@@UEBA_NAEBVItemInstance@@0@Z",
+                "?getEnchantSlot@WeaponItem@@UEBAHXZ",
+                "?getEnchantValue@WeaponItem@@UEBAHXZ",
+                "?use@WeaponItem@@UEBAAEAVItemStack@@AEAV2@AEAVPlayer@@@Z",
+                "?getDestroySpeed@WeaponItem@@UEBAMAEBVItemInstance@@AEBVBlock@@@Z",
+                "?hurtEnemy@WeaponItem@@UEBAXAEAVItemStack@@PEAVMob@@1@Z"
+            ],
+            "name": "WeaponItem"
+        }
+    ]
+}

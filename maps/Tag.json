@@ -1,0 +1,39 @@
+{
+    "functions": [
+        {
+            "address": "0x0",
+            "name": "?readNamedTag@Tag@@SA?AV?$unique_ptr@VTag@@U?$default_delete@VTag@@@std@@@std@@AEAVIDataInput@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?writeNamedTag@Tag@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV1@AEAVIDataOutput@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?newTag@Tag@@SA?AV?$unique_ptr@VTag@@U?$default_delete@VTag@@@std@@@std@@W4Type@1@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getTagName@Tag@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4Type@1@@Z"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2aff610",
+            "functions": [
+                "??1Tag@@UEAA@XZ",
+                "?deleteChildren@Tag@@UEAAXXZ",
+                "?write@Tag@@UEBAXAEAVIDataOutput@@@Z",
+                "?load@Tag@@UEAAXAEAVIDataInput@@@Z",
+                "?toString@Tag@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ",
+                "?getId@Tag@@UEBA?AW4Type@Tag@@XZ",
+                "?equals@Tag@@UEBA_NAEBV1@@Z",
+                "?print@Tag@@UEBAXAEAVPrintStream@@@Z",
+                "?print@Tag@@UEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVPrintStream@@@Z",
+                "?copy@Tag@@UEBA?AV?$unique_ptr@VTag@@U?$default_delete@VTag@@@std@@@std@@XZ",
+                "?hash@Tag@@UEBA_KXZ"
+            ],
+            "name": "Tag"
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+{
+    "includes": [
+        "Minecraft/Blocks/BlockLegacy.h"
+    ],
+    "functions": [
+        {
+            "address": "0x0",
+            "name": "?setMinRequiredBaseGameVersion@BlockLegacy@@QEAAAEAV1@AEBVBaseGameVersion@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?createBlockPermutations@BlockLegacy@@QEAAXI@Z"
+        },
+        {
+            "address": "0x164EC50",
+            "name": "??0BlockLegacy@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HAEBVMaterial@@@Z"
+        },
+        {
+            "address": "0x1651D90",
+            "name": "?tryGetStateFromLegacyData@BlockLegacy@@QEBAPEBVBlock@@G@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?clip@BlockLegacy@@QEBA?AVHitResult@@AEAVBlockSource@@AEBVBlockPos@@AEBVVec3@@2_NAEBVAABB@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?spawnResources@BlockLegacy@@QEBAXAEAVBlockSource@@AEBVBlockPos@@MH@Z"
+        },
+        {
+            "address": "0x1650520",
+            "name": "?popResource@BlockLegacy@@QEBAPEAVItemActor@@AEAVBlockSource@@AEBVBlockPos@@AEBVItemInstance@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?addAABB@BlockLegacy@@QEBA_NAEBVAABB@@PEBV2@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?setNameId@BlockLegacy@@QEAAAEAV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?buildDescriptionName@BlockLegacy@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVBlock@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?addBlockProperty@BlockLegacy@@QEAAAEAV1@W4BlockProperty@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?setExperimental@BlockLegacy@@QEAAAEAV1@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?setCanBeExtraBlock@BlockLegacy@@QEAAAEAV1@_N@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?setCategory@BlockLegacy@@QEAAAEAV1@W4CreativeItemCategory@@@Z"
+        },
+        {
+            "address": "0x1651D80",
+            "name": "?getDefaultState@BlockLegacy@@QEBAAEBVBlock@@XZ"
+        },
+        {
+            "address": "0x1651D90",
+            "name": "?getBlockItemId@BlockLegacy@@QEBAFXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?forEachBlockPermutation@BlockLegacy@@QEBAXV?$function@$$A6A_NAEBVBlock@@@Z@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?forEachItemStateInstance@BlockLegacy@@QEBAXV?$function@$$A6A_NAEBVItemStateInstance@@@Z@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getDebugText@BlockLegacy@@QEBAXAEAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEBVBlockPos@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getPlacementFacingAll@BlockLegacy@@SAEAEAVActor@@AEBVBlockPos@@M@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getPlacementFacingAllExceptAxisY@BlockLegacy@@SAEAEAVActor@@AEBVBlockPos@@M@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?createWeakPtr@BlockLegacy@@QEAA?AV?$WeakPtr@VBlockLegacy@@@@XZ"
+        }
+    ],
+    "vtable": [
+        {
+            "address": "0x2b8e7d0",
+            "functions": [
+                "??1BlockLegacy@@UEAA@XZ",
+                "?tick@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVRandom@@@Z",
+                "?getStateFromLegacyData@BlockLegacy@@UEBAAEBVBlock@@G@Z",
+                "?getNextBlockPermutation@BlockLegacy@@UEBAPEBVBlock@@AEBV2@@Z",
+                "?getCollisionShape@BlockLegacy@@UEBA_NAEAVAABB@@AEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@PEAVActor@@@Z",
+                "?isObstructingChests@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?randomlyModifyPosition@BlockLegacy@@UEBA?AVVec3@@AEBVBlockPos@@@Z",
+                "?randomlyModifyPosition@BlockLegacy@@UEBA?AVVec3@@AEBVBlockPos@@AEAH@Z",
+                "?addAABBs@BlockLegacy@@UEBAXAEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@@Z",
+                "?getAABB@BlockLegacy@@UEBAAEBVAABB@@AEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@AEAV2@_N@Z",
+                "?addCollisionShapes@BlockLegacy@@UEBA_NAEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@PEAVActor@@@Z",
+                "?getOutline@BlockLegacy@@UEBAAEBVAABB@@AEAVBlockSource@@AEBVBlockPos@@AEAV2@@Z",
+                "?getLiquidClipVolume@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@AEAVAABB@@@Z",
+                "?onProjectileHit@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEBVActor@@@Z",
+                "?liquidCanFlowIntoFromDirection@BlockLegacy@@UEBA_NEAEBV?$function@$$A6AAEBVBlock@@AEBVBlockPos@@@Z@std@@AEBVBlockPos@@@Z",
+                "?getLightEmission@BlockLegacy@@UEBA?AUBrightness@@AEBVBlock@@@Z",
+                "?shouldRandomTick@BlockLegacy@@UEBA_NXZ",
+                "?hasVariableLighting@BlockLegacy@@UEBA_NXZ",
+                "?isStrippable@BlockLegacy@@UEBA_NAEBVBlock@@@Z",
+                "?getStrippedBlock@BlockLegacy@@UEBAAEBVBlock@@AEBV2@@Z",
+                "?canProvideSupport@BlockLegacy@@UEBA_NAEBVBlock@@EW4BlockSupportType@@@Z",
+                "?canConnect@BlockLegacy@@UEBA_NAEBVBlock@@E0@Z",
+                "?getConnectedDirections@BlockLegacy@@UEBAXAEBVBlock@@AEBVBlockPos@@AEAVBlockSource@@AEA_N333@Z",
+                "?isCropBlock@BlockLegacy@@UEBA_NXZ",
+                "?isStemBlock@BlockLegacy@@UEBA_NXZ",
+                "?isContainerBlock@BlockLegacy@@UEBA_NXZ",
+                "?isCraftingBlock@BlockLegacy@@UEBA_NXZ",
+                "?isInteractiveBlock@BlockLegacy@@UEBA_NXZ",
+                "?isWaterBlocking@BlockLegacy@@UEBA_NXZ",
+                "?isHurtableBlock@BlockLegacy@@UEBA_NXZ",
+                "?isFenceBlock@BlockLegacy@@UEBA_NXZ",
+                "?isFenceGateBlock@BlockLegacy@@UEBA_NXZ",
+                "?isThinFenceBlock@BlockLegacy@@UEBA_NXZ",
+                "?isWallBlock@BlockLegacy@@UEBA_NXZ",
+                "?isStairBlock@BlockLegacy@@UEBA_NXZ",
+                "?isSlabBlock@BlockLegacy@@UEBA_NXZ",
+                "?isDoorBlock@BlockLegacy@@UEBA_NXZ",
+                "?isRailBlock@BlockLegacy@@UEBA_NXZ",
+                "?isButtonBlock@BlockLegacy@@UEBA_NXZ",
+                "?canHurtAndBreakItem@BlockLegacy@@UEBA_NXZ",
+                "?isSignalSource@BlockLegacy@@UEBA_NXZ",
+                "?canBeOriginalSurface@BlockLegacy@@UEBA_NXZ",
+                "?isValidAuxValue@BlockLegacy@@UEBA_NH@Z",
+                "?canFillAtPos@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?sanitizeFillBlock@BlockLegacy@@UEBAAEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@AEBV2@@Z",
+                "?onFillBlock@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?getDirectSignal@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@H@Z",
+                "?waterSpreadCausesSpawn@BlockLegacy@@UEBA_NXZ",
+                "?canContainLiquid@BlockLegacy@@UEBA_NXZ",
+                "?shouldConnectToRedstone@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@H@Z",
+                "?handleRain@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@M@Z",
+                "?canBeUsedInCommands@BlockLegacy@@UEBA_N_NAEBVBaseGameVersion@@@Z",
+                "?getThickness@BlockLegacy@@UEBAMXZ",
+                "?getFlexibility@BlockLegacy@@UEBAMAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?checkIsPathable@BlockLegacy@@UEBA_NAEAVActor@@AEBVBlockPos@@1@Z",
+                "?shouldDispense@BlockLegacy@@UEBA_NAEAVBlockSource@@AEAVContainer@@@Z",
+                "?dispense@BlockLegacy@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z",
+                "?onPlace@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?onRemove@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?onExploded@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@PEAVActor@@@Z",
+                "?onStepOn@BlockLegacy@@UEBAXAEAVActor@@AEBVBlockPos@@@Z",
+                "?onFallOn@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@PEAVActor@@M@Z",
+                "?transformOnFall@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@PEAVActor@@M@Z",
+                "?onRedstoneUpdate@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@H_N@Z",
+                "?onMove@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@1@Z",
+                "?detachesOnPistonMove@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?movedByPiston@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?setupRedstoneComponent@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?getRedstoneProperty@BlockLegacy@@UEBA?AW4BlockProperty@@AEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?updateEntityAfterFallOn@BlockLegacy@@UEBAXAEAVActor@@@Z",
+                "?isBounceBlock@BlockLegacy@@UEBA_NXZ",
+                "?ignoreEntitiesOnPistonMove@BlockLegacy@@UEBA_NAEBVBlock@@@Z",
+                "?onFertilized@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@PEAVActor@@W4FertilizerType@@@Z",
+                "?mayConsumeFertilizer@BlockLegacy@@UEBA_NAEAVBlockSource@@@Z",
+                "?mayPick@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlock@@_N@Z",
+                "?mayPick@BlockLegacy@@UEBA_NXZ",
+                "?mayPlace@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?mayPlace@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@E@Z",
+                "?mayPlaceOn@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?tryToPlace@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@PEBUActorBlockSyncMessage@@@Z",
+                "?breaksFallingBlocks@BlockLegacy@@UEBA_NAEBVBlock@@@Z",
+                "?destroy@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@PEAVActor@@@Z",
+                "?playerWillDestroy@BlockLegacy@@UEBA_NAEAVPlayer@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?getIgnoresDestroyPermissions@BlockLegacy@@UEBA_NAEAVActor@@AEBVBlockPos@@@Z",
+                "?neighborChanged@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@1@Z",
+                "?getSecondPart@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@AEAV3@@Z",
+                "?getResourceCount@BlockLegacy@@UEBAHAEAVRandom@@AEBVBlock@@H@Z",
+                "?getResourceItem@BlockLegacy@@UEBA?AVItemInstance@@AEAVRandom@@AEBVBlock@@H@Z",
+                "?asItemInstance@BlockLegacy@@UEBA?AVItemInstance@@AEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?spawnResources@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@MH@Z",
+                "?spawnBurnResources@BlockLegacy@@UEBA_NAEAVBlockSource@@MMM@Z",
+                "?getExplosionResistance@BlockLegacy@@UEBAMPEAVActor@@@Z",
+                "?clip@BlockLegacy@@UEBA?AVHitResult@@AEAVBlockSource@@AEBVBlockPos@@AEBVVec3@@2_N@Z",
+                "?use@BlockLegacy@@UEBA_NAEAVPlayer@@AEBVBlockPos@@@Z",
+                "?getPlacementBlock@BlockLegacy@@UEBAAEBVBlock@@AEAVActor@@AEBVBlockPos@@EAEBVVec3@@H@Z",
+                "?calcVariant@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?isAttachedTo@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@AEAV3@@Z",
+                "?attack@BlockLegacy@@UEBA_NPEAVPlayer@@AEBVBlockPos@@@Z",
+                "?handleEntityInside@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@PEAVActor@@AEAVVec3@@@Z",
+                "?entityInside@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVActor@@@Z",
+                "?playerDestroy@BlockLegacy@@UEBAXAEAVPlayer@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?canSurvive@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?getExperienceDrop@BlockLegacy@@UEBAHAEAVRandom@@@Z",
+                "?canBeBuiltOver@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?triggerEvent@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@HH@Z",
+                "?executeEvent@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVActor@@@Z",
+                "?hasTag@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                "?getMobToSpawn@BlockLegacy@@UEBAPEBVMobSpawnerData@@AEBVSpawnConditions@@AEAVBlockSource@@@Z",
+                "?getMapColor@BlockLegacy@@UEBA?AVColor@@XZ",
+                "?getMapColor@BlockLegacy@@UEBA?AVColor@@AEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?shouldStopFalling@BlockLegacy@@UEBA_NAEAVActor@@@Z",
+                "?pushesUpFallingBlocks@BlockLegacy@@UEBA_NXZ",
+                "?calcGroundFriction@BlockLegacy@@UEBAMAEAVMob@@AEBVBlockPos@@@Z",
+                "?canHaveExtraData@BlockLegacy@@UEBA_NXZ",
+                "?hasComparatorSignal@BlockLegacy@@UEBA_NXZ",
+                "?getComparatorSignal@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@E@Z",
+                "?canSlide@BlockLegacy@@UEBA_NAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?getIconYOffset@BlockLegacy@@UEBAHXZ",
+                "?getRenderLayer@BlockLegacy@@UEBA?AW4BlockRenderLayer@@AEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?getRenderLayer@BlockLegacy@@UEBA?AW4BlockRenderLayer@@XZ",
+                "?buildDescriptionId@BlockLegacy@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVBlock@@@Z",
+                "?isAuxValueRelevantForPicking@BlockLegacy@@UEBA_NXZ",
+                "?getColor@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?getColor@BlockLegacy@@UEBAHAEBVBlock@@@Z",
+                "?getColorAtPos@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?getColorForParticle@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@@Z",
+                "?isSeasonTinted@BlockLegacy@@UEBA_NAEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?onGraphicsModeChanged@BlockLegacy@@UEAAX_N00@Z",
+                "?getExtraRenderLayers@BlockLegacy@@UEBAHXZ",
+                "?getShadeBrightness@BlockLegacy@@UEBAMXZ",
+                "?getVisualShapeInWorld@BlockLegacy@@UEBAAEBVAABB@@AEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@AEAV2@_N@Z",
+                "?getVisualShape@BlockLegacy@@UEBAAEBVAABB@@AEBVBlock@@AEAV2@_N@Z",
+                "?getUIShape@BlockLegacy@@UEBAAEBVAABB@@AEBVBlock@@AEAV2@@Z",
+                "?telemetryVariant@BlockLegacy@@UEBAHAEAVBlockSource@@AEBVBlockPos@@@Z",
+                "?getVariant@BlockLegacy@@UEBAHAEBVBlock@@@Z",
+                "?canSpawnOn@BlockLegacy@@UEBA_NXZ",
+                "?getMappedFace@BlockLegacy@@UEBAEEAEBVBlock@@@Z",
+                "?getFaceFlip@BlockLegacy@@UEBA?AW4Flip@@EAEBVBlock@@@Z",
+                "?animateTick@BlockLegacy@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVRandom@@@Z",
+                "?init@BlockLegacy@@UEAAAEAV1@XZ",
+                "?setLightBlock@BlockLegacy@@UEAAAEAV1@UBrightness@@@Z",
+                "?setLightEmission@BlockLegacy@@UEAAAEAV1@M@Z",
+                "?setExplodeable@BlockLegacy@@UEAAAEAV1@M@Z",
+                "?setDestroyTime@BlockLegacy@@UEAAAEAV1@M@Z",
+                "?setFriction@BlockLegacy@@UEAAAEAV1@M@Z",
+                "?addProperty@BlockLegacy@@UEAAAEAV1@W4BlockProperty@@@Z",
+                "?addState@BlockLegacy@@UEAAAEAV1@AEBVItemState@@_K@Z",
+                "?addState@BlockLegacy@@UEAAAEAV1@AEBVItemState@@@Z",
+                "?setAllowsRunes@BlockLegacy@@UEAAAEAV1@_N@Z",
+                "?setMapColor@BlockLegacy@@UEAAAEAV1@AEBVColor@@@Z",
+                "?canBeSilkTouched@BlockLegacy@@UEBA_NXZ",
+                "?getSilkTouchItemInstance@BlockLegacy@@UEBA?AVItemInstance@@AEBVBlock@@@Z",
+                "?setVisualShape@BlockLegacy@@UEAAXAEBVVec3@@0@Z",
+                "?setVisualShape@BlockLegacy@@UEAAXAEBVAABB@@@Z",
+                "?tryLegacyUpgrade@BlockLegacy@@UEBAPEBVBlock@@G@Z",
+                "?dealsContactDamage@BlockLegacy@@UEBA_NAEBVActor@@AEBVBlock@@_N@Z"
+            ],
+            "name": "BlockLegacy"
+        }
+    ]
+}

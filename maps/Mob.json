@@ -1,0 +1,275 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "??0Mob@@QEAA@PEAVActorDefinitionGroup@@AEBUActorDefinitionIdentifier@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0Mob@@QEAA@AEAVLevel@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?checkTotemDeathProtection@Mob@@QEAA_NAEBVActorDamageSource@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?frostWalk@Mob@@QEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?getTravelType@Mob@@QEAA?AW4TravelType@1@XZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?calcMoveRelativeSpeed@Mob@@QEAAMW4TravelType@1@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_updateMobTravel@Mob@@QEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?setEatCounter@Mob@@QEAAXH@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?shouldApplyWaterGravity@Mob@@QEAA_NXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?getFirstCaravanHead@Mob@@QEAAPEAV1@XZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?getCaravanSize@Mob@@QEBAHXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?resetAttributes@Mob@@QEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?setIsPregnant@Mob@@QEAAX_N@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_initHardCodedComponents@Mob@@AEAA_NXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_isHeadInWater@Mob@@AEAA_NXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_tryApplyingLevitation@Mob@@AEBA_NAEAVVec3@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_verifyAttributes@Mob@@AEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?calculateAmbientSoundTime@Mob@@IEAAXH@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?saveOffhand@Mob@@IEBA?AV?$unique_ptr@VListTag@@U?$default_delete@VListTag@@@std@@@std@@XZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_applyRidingRotationLimits@Mob@@IEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?getJumpMultiplier@Mob@@IEAAMXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?getJumpPrevention@Mob@@IEAA?AUJumpPreventionResult@1@XZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?emitJumpPreventedEvent@Mob@@IEAAXAEBVBlockPos@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_doSprintParticleEffect@Mob@@IEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?getCurrentSwingDuration@Mob@@IEAAHXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?updateAttackAnim@Mob@@IEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?tickEffects@Mob@@IEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?tickBlockDamage@Mob@@IEAAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?registerAttributes@Mob@@IEAAXXZ"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "", 
+            "functions": [
+                "?reloadHardcoded@Mob@@UEAAXW4InitializationMethod@Actor@@AEBVVariantParameterList@@@Z", 
+                "?reloadHardcodedClient@Mob@@UEAAXW4InitializationMethod@Actor@@AEBVVariantParameterList@@@Z", 
+                "?initializeComponents@Mob@@UEAAXW4InitializationMethod@Actor@@AEBVVariantParameterList@@@Z", 
+                "?hasComponent@Mob@@UEBA_NAEBVHashString@Util@@@Z", 
+                "??1Mob@@UEAA@XZ", 
+                "?getInterpolatedBodyRot@Mob@@UEBAMM@Z", 
+                "?getInterpolatedHeadRot@Mob@@UEBAMM@Z", 
+                "?getInterpolatedBodyYaw@Mob@@UEBAMM@Z", 
+                "?getYawSpeedInDegreesPerSecond@Mob@@UEBAMXZ", 
+                "?blockedByShield@Mob@@UEAAXAEBVActorDamageSource@@AEAVActor@@@Z", 
+                "?teleportTo@Mob@@UEAAXAEBVVec3@@_NHH@Z", 
+                "?lerpTo@Mob@@UEAAXAEBVVec3@@AEBVVec2@@H@Z", 
+                "?normalTick@Mob@@UEAAXXZ", 
+                "?baseTick@Mob@@UEAAXXZ", 
+                "?rideTick@Mob@@MEAAXXZ", 
+                "?startRiding@Mob@@UEAA_NAEAVActor@@@Z", 
+                "?addRider@Mob@@UEAAXAEAVActor@@@Z", 
+                "?playerTouch@Mob@@UEAAXAEAVPlayer@@@Z", 
+                "?isImmobile@Mob@@UEBA_NXZ", 
+                "?isPickable@Mob@@UEAA_NXZ", 
+                "?isSleeping@Mob@@UEBA_NXZ", 
+                "?isShootable@Mob@@UEAA_NXZ", 
+                "?isBlocking@Mob@@UEBA_NXZ", 
+                "?isAlive@Mob@@UEBA_NXZ", 
+                "?isSurfaceMob@Mob@@UEBA_NXZ", 
+                "?setTarget@Mob@@UEAAXPEAVActor@@@Z", 
+                "?attack@Mob@@UEAA_NAEAVActor@@@Z", 
+                "?canPowerJump@Mob@@UEBA_NXZ", 
+                "?isJumping@Mob@@UEBA_NXZ", 
+                "?actuallyHurt@Mob@@UEAAXHPEBVActorDamageSource@@_N@Z", 
+                "?animateHurt@Mob@@UEAAXXZ", 
+                "?doFireHurt@Mob@@UEAA_NH@Z", 
+                "?handleEntityEvent@Mob@@UEAAXW4ActorEvent@@H@Z", 
+                "?getArmorMaterialTypeInSlot@Mob@@UEBA?AW4ArmorMaterialType@@W4ArmorSlot@@@Z", 
+                "?getArmorMaterialTextureTypeInSlot@Mob@@UEBA?AW4ArmorTextureType@@W4ArmorSlot@@@Z", 
+                "?getArmorColorInSlot@Mob@@UEBAMW4ArmorSlot@@H@Z", 
+                "?setEquippedSlot@Mob@@UEAAXW4ArmorSlot@@HH@Z", 
+                "?setEquippedSlot@Mob@@UEAAXW4ArmorSlot@@AEBVItemStack@@@Z", 
+                "?setOnFire@Mob@@UEAAXH@Z", 
+                "?causeFallDamage@Mob@@MEAAXM@Z", 
+                "?canBePulledIntoVehicle@Mob@@UEBA_NXZ", 
+                "?inCaravan@Mob@@UEBA_NXZ", 
+                "?stopRiding@Mob@@UEAAX_N00@Z", 
+                "?buildDebugInfo@Mob@@UEBAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z", 
+                "?getDeathTime@Mob@@UEBAHXZ", 
+                "?swing@Mob@@UEAAXXZ", 
+                "?getYHeadRot@Mob@@UEBAMXZ", 
+                "?renderDebugServerState@Mob@@UEAAXAEBVOptions@@@Z", 
+                "?kill@Mob@@UEAAXXZ", 
+                "?die@Mob@@UEAAXAEBVActorDamageSource@@@Z", 
+                "?updateEntitySpecificMolangVariables@Mob@@MEAAXAEAVRenderParams@@@Z", 
+                "?outOfWorld@Mob@@MEAAXXZ", 
+                "?_hurt@Mob@@MEAA_NAEBVActorDamageSource@@H_N1@Z", 
+                "?readAdditionalSaveData@Mob@@MEAAXAEBVCompoundTag@@AEAVDataLoadHelper@@@Z", 
+                "?addAdditionalSaveData@Mob@@MEAAXAEAVCompoundTag@@@Z", 
+                "?_playStepSound@Mob@@MEAAXAEBVBlockPos@@AEBVBlock@@@Z", 
+                "?_removeRider@Mob@@MEAAXAEBUActorUniqueID@@_N1@Z", 
+                "?_onSizeUpdated@Mob@@MEAAXXZ", 
+                "?knockback@Mob@@UEAAXPEAVActor@@HMMMMM@Z", 
+                "?resolveDeathLoot@Mob@@UEAAXHAEBVActorDamageSource@@@Z", 
+                "?spawnAnim@Mob@@UEAAXXZ", 
+                "?setSleeping@Mob@@UEAAX_N@Z", 
+                "?isSprinting@Mob@@UEBA_NXZ", 
+                "?setSprinting@Mob@@UEAAX_N@Z", 
+                "?playAmbientSound@Mob@@UEAAXXZ", 
+                "?getAmbientSound@Mob@@UEAA?AW4LevelSoundEvent@@XZ", 
+                "?getAmbientSoundPostponeTicks@Mob@@UEAAHXZ", 
+                "?getItemInHandIcon@Mob@@UEAAPEBUTextureUVCoordinateSet@@AEBVItemStack@@H@Z", 
+                "?getSpeed@Mob@@UEBAMXZ", 
+                "?setSpeed@Mob@@UEAAXM@Z", 
+                "?getJumpPower@Mob@@UEBAMXZ", 
+                "?hurtEffects@Mob@@UEAA_NAEBVActorDamageSource@@H_N1@Z", 
+                "?getMeleeWeaponDamageBonus@Mob@@UEAAHPEAV1@@Z", 
+                "?getMeleeKnockbackBonus@Mob@@UEAAHXZ", 
+                "?travel@Mob@@UEAAXMMM@Z", 
+                "?applyFinalFriction@Mob@@UEAAXM_N@Z", 
+                "?updateWalkAnim@Mob@@UEAAXXZ", 
+                "?aiStep@Mob@@UEAAXXZ", 
+                "?pushActors@Mob@@UEAAXXZ", 
+                "?lookAt@Mob@@UEAAXPEAVActor@@MM@Z", 
+                "?isLookingAtAnEntity@Mob@@UEAA_NXZ", 
+                "?checkSpawnRules@Mob@@UEAA_N_N@Z", 
+                "?checkSpawnObstruction@Mob@@UEBA_NXZ", 
+                "?shouldDespawn@Mob@@UEBA_NXZ", 
+                "?getAttackAnim@Mob@@UEAAMM@Z", 
+                "?getItemUseDuration@Mob@@UEAAHXZ", 
+                "?getItemUseStartupProgress@Mob@@UEAAMXZ", 
+                "?getItemUseIntervalProgress@Mob@@UEAAMXZ", 
+                "?getItemuseIntervalAxis@Mob@@UEAAHXZ", 
+                "?getTimeAlongSwing@Mob@@UEAAHXZ", 
+                "?ate@Mob@@UEAAXXZ", 
+                "?getMaxHeadXRot@Mob@@UEAAMXZ", 
+                "?getLastHurtByMob@Mob@@UEAAPEAV1@XZ", 
+                "?setLastHurtByMob@Mob@@UEAAXPEAV1@@Z", 
+                "?getLastHurtByPlayer@Mob@@UEAAPEAVPlayer@@XZ", 
+                "?setLastHurtByPlayer@Mob@@UEAAXPEAVPlayer@@@Z", 
+                "?getLastHurtMob@Mob@@UEAAPEAV1@XZ", 
+                "?setLastHurtMob@Mob@@UEAAXPEAVActor@@@Z", 
+                "?isAlliedTo@Mob@@UEAA_NPEAV1@@Z", 
+                "?doHurtTarget@Mob@@UEAA_NPEAVActor@@@Z", 
+                "?canBeControlledByRider@Mob@@UEAA_NXZ", 
+                "?leaveCaravan@Mob@@UEAAXXZ", 
+                "?joinCaravan@Mob@@UEAAXPEAV1@@Z", 
+                "?hasCaravanTail@Mob@@UEBA_NXZ", 
+                "?getCaravanHead@Mob@@UEBA?AUActorUniqueID@@XZ", 
+                "?getArmorValue@Mob@@UEAAHXZ", 
+                "?getArmorCoverPercentage@Mob@@UEBAMXZ", 
+                "?hurtArmor@Mob@@UEAAXH@Z", 
+                "?containerChanged@Mob@@UEAAXH@Z", 
+                "?updateEquipment@Mob@@UEAAXXZ", 
+                "?clearEquipment@Mob@@UEAAHXZ", 
+                "?getAllArmor@Mob@@UEBA?AV?$vector@PEBVItemStack@@V?$allocator@PEBVItemStack@@@std@@@std@@XZ", 
+                "?getAllArmorID@Mob@@UEBA?AV?$vector@HV?$allocator@H@std@@@std@@XZ", 
+                "?getAllHand@Mob@@UEBA?AV?$vector@PEBVItemStack@@V?$allocator@PEBVItemStack@@@std@@@std@@XZ", 
+                "?getAllEquipment@Mob@@UEBA?AV?$vector@PEBVItemStack@@V?$allocator@PEBVItemStack@@@std@@@std@@XZ", 
+                "?getArmorTypeHash@Mob@@UEAAHXZ", 
+                "?sendInventory@Mob@@UEAAX_N@Z", 
+                "?sendArmor@Mob@@UEAAXXZ", 
+                "?getDamageAfterMagicAbsorb@Mob@@UEAAHAEBVActorDamageSource@@H@Z", 
+                "?createAIGoals@Mob@@UEAA_NXZ", 
+                "?onBorn@Mob@@UEAAXAEAVActor@@0@Z", 
+                "?setItemSlot@Mob@@UEAA_NW4EquipmentSlot@@AEBVItemStack@@@Z", 
+                "?goDownInWater@Mob@@UEAAXXZ", 
+                "?setTransitioningSitting@Mob@@UEAAX_N@Z", 
+                "?attackAnimation@Mob@@UEAAXPEAVActor@@M@Z", 
+                "?getAttackTime@Mob@@UEAAHXZ", 
+                "?_getWalkTargetValue@Mob@@UEAAMAEBVBlockPos@@@Z", 
+                "?canExistWhenDisallowMob@Mob@@UEBA_NXZ", 
+                "?useNewAi@Mob@@UEBA_NXZ", 
+                "?ascendLadder@Mob@@UEAAXXZ", 
+                "?ascendScaffolding@Mob@@UEAAXXZ", 
+                "?descendScaffolding@Mob@@UEAAXXZ", 
+                "?initBodyControl@Mob@@MEAA?AV?$unique_ptr@VBodyControl@@U?$default_delete@VBodyControl@@@std@@@std@@XZ", 
+                "?jumpFromGround@Mob@@MEAAXXZ", 
+                "?updateAi@Mob@@MEAAXXZ", 
+                "?newServerAiStep@Mob@@MEAAXXZ", 
+                "?_serverAiMobStep@Mob@@MEAAXXZ", 
+                "?getDamageAfterEnchantReduction@Mob@@MEAAHAEBVActorDamageSource@@H@Z", 
+                "?getDamageAfterArmorAbsorb@Mob@@MEAAHAEBVActorDamageSource@@H@Z", 
+                "?dropEquipment@Mob@@MEAAXAEBVActorDamageSource@@H@Z", 
+                "?dropEquipment@Mob@@MEAAXXZ", 
+                "?dropBags@Mob@@MEAAXXZ", 
+                "?dropContainer@Mob@@MEAAXXZ", 
+                "?tickDeath@Mob@@MEAAXXZ", 
+                "?_endJump@Mob@@MEAAXXZ", 
+                "?updateGliding@Mob@@MEAAXXZ", 
+                "?_allowAscendingScaffolding@Mob@@MEBA_NXZ"
+            ], 
+            "name": "Mob"
+        }
+    ]
+}

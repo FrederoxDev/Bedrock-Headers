@@ -1,0 +1,27 @@
+{
+	"vtable": [
+		{
+			"name": "BlockItem",
+			"parent": "Item",
+			"address": "0x2B6F258",
+			"functions": [
+				"??1BlockItem@@UEAA@XZ",
+				"?isExperimental@BlockItem@@UEBA_NPEBVItemDescriptor@@@Z",
+				"?isDestructive@BlockItem@@UEBA_NH@Z",
+				"?isValidAuxValue@BlockItem@@UEBA_NH@Z",
+				"?buildDescriptionId@BlockItem@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVItemDescriptor@@AEBV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@3@@Z",
+				"?isEmissive@BlockItem@@UEBA_NH@Z",
+				"?getIcon@BlockItem@@UEBAAEBUTextureUVCoordinateSet@@AEBVItemStackBase@@H_N@Z",
+				"?getIconYOffset@BlockItem@@UEBAHXZ",
+				"?_calculatePlacePos@BlockItem@@EEBA_NAEAVItemStack@@AEAVActor@@AEAEAEAVBlockPos@@@Z",
+				"?_useOn@BlockItem@@EEBA_NAEAVItemStack@@AEAVActor@@VBlockPos@@EMMM@Z"
+			]
+		}
+	],
+	"functions": [
+		{
+			"name": "??0BlockItem@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+			"address": "0x1514950"
+		}
+	]
+}

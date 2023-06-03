@@ -1,0 +1,240 @@
+// File automatically generated from GenerateHeader.py
+// https://github.com/FrederoxDev/Bedrock-GhidraScripts
+
+#pragma once
+#include <string>
+class Options;
+class Mob;
+// class std::vector< ItemStack   ,std::allocator< ItemStack   > >;
+class Player;
+class ActorDefinitionGroup;
+class RenderParams;
+// class Util::HashString;
+// class std::vector<int,std::allocator<int> >;
+class DataLoadHelper;
+// class std::unique_ptr< BodyControl,std::default_delete< BodyControl> >;
+// class std::unique_ptr< ListTag,std::default_delete< ListTag> >;
+class Vec2;
+class ActorDamageSource;
+class Actor;
+class Vec3;
+class Block;
+class BlockPos;
+class Level;
+class VariantParameterList;
+class ItemStack;
+class CompoundTag;
+struct ActorDefinitionIdentifier;
+// struct std::unique_ptr< BodyControl,std::default_delete< BodyControl> >;
+// struct std::string;
+// struct std::unique_ptr< ListTag,std::default_delete< ListTag> >;
+struct ActorUniqueID;
+struct TextureUVCoordinateSet;
+enum ActorEvent;
+enum ArmorTextureType;
+enum EquipmentSlot;
+// enum Mob::TravelType;
+enum ArmorMaterialType;
+// enum Actor::InitializationMethod;
+enum ArmorSlot;
+enum LevelSoundEvent;
+
+
+class Mob : public Actor {
+public:
+	virtual void reloadHardcoded(Actor::InitializationMethod, const VariantParameterList&);
+	virtual void reloadHardcodedClient(Actor::InitializationMethod, const VariantParameterList&);
+	virtual void initializeComponents(Actor::InitializationMethod, const VariantParameterList&);
+	virtual bool hasComponent(const Util::HashString&) const;
+	virtual ~Mob();
+	virtual float getInterpolatedBodyRot(float) const;
+	virtual float getInterpolatedHeadRot(float) const;
+	virtual float getInterpolatedBodyYaw(float) const;
+	virtual float getYawSpeedInDegreesPerSecond() const;
+	virtual void blockedByShield(const ActorDamageSource&, Actor&);
+	virtual void teleportTo(const Vec3&, bool, int, int);
+	virtual void lerpTo(const Vec3&, const Vec2&, int);
+	virtual void normalTick();
+	virtual void baseTick();
+protected:
+	virtual void rideTick();
+public:
+	virtual bool startRiding(Actor&);
+	virtual void addRider(Actor&);
+	virtual void playerTouch(Player&);
+	virtual bool isImmobile() const;
+	virtual bool isPickable();
+	virtual bool isSleeping() const;
+	virtual bool isShootable();
+	virtual bool isBlocking() const;
+	virtual bool isAlive() const;
+	virtual bool isSurfaceMob() const;
+	virtual void setTarget(Actor*);
+	virtual bool attack(Actor&);
+	virtual bool canPowerJump() const;
+	virtual bool isJumping() const;
+	virtual void actuallyHurt(int, const ActorDamageSource*, bool);
+	virtual void animateHurt();
+	virtual bool doFireHurt(int);
+	virtual void handleEntityEvent(ActorEvent, int);
+	virtual ArmorMaterialType getArmorMaterialTypeInSlot(ArmorSlot) const;
+	virtual ArmorTextureType getArmorMaterialTextureTypeInSlot(ArmorSlot) const;
+	virtual float getArmorColorInSlot(ArmorSlot, int) const;
+	virtual void setEquippedSlot(ArmorSlot, int, int);
+	virtual void setEquippedSlot(ArmorSlot, const ItemStack&);
+	virtual void setOnFire(int);
+protected:
+	virtual void causeFallDamage(float);
+public:
+	virtual bool canBePulledIntoVehicle() const;
+	virtual bool inCaravan() const;
+	virtual void stopRiding(bool, bool, bool);
+	virtual void buildDebugInfo(std::string&) const;
+	virtual int getDeathTime() const;
+	virtual void swing();
+	virtual float getYHeadRot() const;
+	virtual void renderDebugServerState(const Options&);
+	virtual void kill();
+	virtual void die(const ActorDamageSource&);
+protected:
+	virtual void updateEntitySpecificMolangVariables(RenderParams&);
+	virtual void outOfWorld();
+	virtual bool _hurt(const ActorDamageSource&, int, bool, bool);
+	virtual void readAdditionalSaveData(const CompoundTag&, DataLoadHelper&);
+	virtual void addAdditionalSaveData(CompoundTag&);
+	virtual void _playStepSound(const BlockPos&, const Block&);
+	virtual void _removeRider(const ActorUniqueID&, bool, bool);
+	virtual void _onSizeUpdated();
+public:
+	virtual void knockback(Actor*, int, float, float, float, float, float);
+	virtual void resolveDeathLoot(int, const ActorDamageSource&);
+	virtual void spawnAnim();
+	virtual void setSleeping(bool);
+	virtual bool isSprinting() const;
+	virtual void setSprinting(bool);
+	virtual void playAmbientSound();
+	virtual LevelSoundEvent getAmbientSound();
+	virtual int getAmbientSoundPostponeTicks();
+	virtual const TextureUVCoordinateSet* getItemInHandIcon(const ItemStack&, int);
+	virtual float getSpeed() const;
+	virtual void setSpeed(float);
+	virtual float getJumpPower() const;
+	virtual bool hurtEffects(const ActorDamageSource&, int, bool, bool);
+	virtual int getMeleeWeaponDamageBonus(Mob*);
+	virtual int getMeleeKnockbackBonus();
+	virtual void travel(float, float, float);
+	virtual void applyFinalFriction(float, bool);
+	virtual void updateWalkAnim();
+	virtual void aiStep();
+	virtual void pushActors();
+	virtual void lookAt(Actor*, float, float);
+	virtual bool isLookingAtAnEntity();
+	virtual bool checkSpawnRules(bool);
+	virtual bool checkSpawnObstruction() const;
+	virtual bool shouldDespawn() const;
+	virtual float getAttackAnim(float);
+	virtual int getItemUseDuration();
+	virtual float getItemUseStartupProgress();
+	virtual float getItemUseIntervalProgress();
+	virtual int getItemuseIntervalAxis();
+	virtual int getTimeAlongSwing();
+	virtual void ate();
+	virtual float getMaxHeadXRot();
+	virtual Mob* getLastHurtByMob();
+	virtual void setLastHurtByMob(Mob*);
+	virtual Player* getLastHurtByPlayer();
+	virtual void setLastHurtByPlayer(Player*);
+	virtual Mob* getLastHurtMob();
+	virtual void setLastHurtMob(Actor*);
+	virtual bool isAlliedTo(Mob*);
+	virtual bool doHurtTarget(Actor*);
+	virtual bool canBeControlledByRider();
+	virtual void leaveCaravan();
+	virtual void joinCaravan(Mob*);
+	virtual bool hasCaravanTail() const;
+	virtual ActorUniqueID getCaravanHead() const;
+	virtual int getArmorValue();
+	virtual float getArmorCoverPercentage() const;
+	virtual void hurtArmor(int);
+	virtual void containerChanged(int);
+	virtual void updateEquipment();
+	virtual int clearEquipment();
+	virtual const std::vector< ItemStack   ,std::allocator< ItemStack   > >* getAllArmor() const;
+	virtual std::vector<int,std::allocator<int> > getAllArmorID() const;
+	virtual const std::vector< ItemStack   ,std::allocator< ItemStack   > >* getAllHand() const;
+	virtual const std::vector< ItemStack   ,std::allocator< ItemStack   > >* getAllEquipment() const;
+	virtual int getArmorTypeHash();
+	virtual void sendInventory(bool);
+	virtual void sendArmor();
+	virtual int getDamageAfterMagicAbsorb(const ActorDamageSource&, int);
+	virtual bool createAIGoals();
+	virtual void onBorn(Actor&, Actor&);
+	virtual bool setItemSlot(EquipmentSlot, const ItemStack&);
+	virtual void goDownInWater();
+	virtual void setTransitioningSitting(bool);
+	virtual void attackAnimation(Actor*, float);
+	virtual int getAttackTime();
+	virtual float _getWalkTargetValue(const BlockPos&);
+	virtual bool canExistWhenDisallowMob() const;
+	virtual bool useNewAi() const;
+	virtual void ascendLadder();
+	virtual void ascendScaffolding();
+	virtual void descendScaffolding();
+protected:
+	virtual std::unique_ptr< BodyControl,std::default_delete< BodyControl> > initBodyControl();
+	virtual void jumpFromGround();
+	virtual void updateAi();
+	virtual void newServerAiStep();
+	virtual void _serverAiMobStep();
+	virtual int getDamageAfterEnchantReduction(const ActorDamageSource&, int);
+	virtual int getDamageAfterArmorAbsorb(const ActorDamageSource&, int);
+	virtual void dropEquipment(const ActorDamageSource&, int);
+	virtual void dropEquipment();
+	virtual void dropBags();
+	virtual void dropContainer();
+	virtual void tickDeath();
+	virtual void _endJump();
+	virtual void updateGliding();
+	virtual bool _allowAscendingScaffolding() const;
+
+// Begin Non-Virtual Functions
+public:
+	Mob(ActorDefinitionGroup*, const ActorDefinitionIdentifier&);
+	Mob(Level&);
+	bool checkTotemDeathProtection(const ActorDamageSource&);
+	void frostWalk();
+	TravelType __cdecl Mob::getTravelType();
+	float calcMoveRelativeSpeed(Mob::TravelType);
+	void _updateMobTravel();
+	void setEatCounter(int);
+	bool shouldApplyWaterGravity();
+	Mob* getFirstCaravanHead();
+	int getCaravanSize() const;
+	void resetAttributes();
+	void setIsPregnant(bool);
+private:
+	bool _initHardCodedComponents();
+	bool _isHeadInWater();
+	bool _tryApplyingLevitation(Vec3&) const;
+	void _verifyAttributes();
+protected:
+	void calculateAmbientSoundTime(int);
+	std::unique_ptr< ListTag,std::default_delete< ListTag> > saveOffhand() const;
+	void _applyRidingRotationLimits();
+	float getJumpMultiplier();
+	JumpPreventionResult __cdecl Mob::getJumpPrevention();
+	void emitJumpPreventedEvent(const BlockPos&);
+	void _doSprintParticleEffect();
+	int getCurrentSwingDuration();
+	void updateAttackAnim();
+	void tickEffects();
+	void tickBlockDamage();
+	void registerAttributes();
+
+// Begin Variables
+// protected: static int const Mob::MAX_INACTIVITY_TIMER;
+// public: static int const Mob::ABSORPTION_FACTOR_MAX;
+// public: static int const Mob::ABSORPTION_FACTOR_MIN;
+// public: static float const Mob::PLAYER_SWIMMING_SURFACE_OFFSET;
+// public: static int const Mob::TOTAL_ROLL_STEPS;
+};

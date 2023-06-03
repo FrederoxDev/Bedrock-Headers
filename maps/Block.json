@@ -1,0 +1,11 @@
+{
+	"includes": [
+		"Minecraft/Blocks/Block.h"
+	],
+	"functions": [
+		{
+			"name": "?getLegacyBlock@Block@@QEBAAEBVBlockLegacy@@XZ",
+			"address": "0x00E9920"
+		}
+	]
+}

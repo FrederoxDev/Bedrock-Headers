@@ -1,0 +1,205 @@
+{
+	"functions": [
+		{
+			"address": "0x0",
+			"name": "?initServer@Item@@QEAA_NAEAVValue@Json@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?beginCreativeGroup@Item@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVItemInstance@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?beginCreativeGroup@Item@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVBlock@@PEBVCompoundTag@@@Z"
+		},
+		{
+			"address": "0x1560AB0",
+			"name": "?beginCreativeGroup@Item@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV1@FPEBVCompoundTag@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?beginCreativeGroup@Item@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@FFPEBVCompoundTag@@@Z"
+		},
+		{
+			"address": "0x1560BD0",
+			"name": "?addCreativeItem@Item@@SAXAEBVBlock@@@Z"
+		},
+		{
+			"address": "0x1560C90",
+			"name": "?addCreativeItem@Item@@SAXPEAV1@F@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?addCreativeItem@Item@@SAXAEBVItemInstance@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?addCreativeItem@Item@@SAXAEBVItemStack@@@Z"
+		},
+		{
+			"address": "0x15614E0",
+			"name": "??0Item@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@F@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?setMinRequiredBaseGameVersion@Item@@QEAAAEAV1@AEBVBaseGameVersion@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?setIsMirroredArt@Item@@QEAAAEAV1@_N@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?updateCustomBlockEntityTag@Item@@QEBA_NAEAVBlockSource@@AEAVItemStack@@AEAVBlockPos@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?useOn@Item@@QEBA_NAEAVItemStack@@AEAVActor@@HHHEMMM@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?setAllowOffhand@Item@@QEAAAEAV1@_N@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?buildDescriptionName@Item@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVItemStackBase@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getTextureUVCoordinateSet@Item@@SA?AUTextureUVCoordinateSet@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getIconTextureUVSet@Item@@SAAEBUTextureUVCoordinateSet@@AEBVTextureAtlasItem@@HH@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getTextureItem@Item@@SAAEBVTextureAtlasItem@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+		},
+		{
+			"address": "0x1565810",
+			"name": "?getCommandName@Item@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+		},
+		{
+			"address": "0x0",
+			"name": "?getSerializedName@Item@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+		},
+		{
+			"address": "0x0",
+			"name": "?destroySpeedBonus@Item@@IEBAMAEBVItemInstance@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?_helpChangeInventoryItemInPlace@Item@@IEBAXAEAVActor@@AEAVItemStack@@1W4ItemAcquisitionMethod@@@Z"
+		}
+	],
+	"vtable": [
+		{
+			"address": "0x2B766C0",
+			"functions": [
+				"??1Item@@UEAA@XZ",
+				"?tearDown@Item@@UEAAXXZ",
+				"?getMaxUseDuration@Item@@UEBAHPEBVItemStack@@@Z",
+				"?getMaxUseDuration@Item@@UEBAHPEBVItemInstance@@@Z",
+				"?isExperimental@Item@@UEBA_NPEBVItemDescriptor@@@Z",
+				"?setMaxStackSize@Item@@UEAAAEAV1@E@Z",
+				"?setCategory@Item@@UEAAAEAV1@W4CreativeItemCategory@@@Z",
+				"?setStackedByData@Item@@UEAAAEAV1@_N@Z",
+				"?setMaxDamage@Item@@UEAAAEAV1@H@Z",
+				"?setHandEquipped@Item@@UEAAAEAV1@XZ",
+				"?setUseAnimation@Item@@UEAAAEAV1@W4UseAnimation@@@Z",
+				"?setMaxUseDuration@Item@@UEAAAEAV1@H@Z",
+				"?setRequiresWorldBuilder@Item@@UEAAAEAV1@_N@Z",
+				"?setExplodable@Item@@UEAAAEAV1@_N@Z",
+				"?setIsGlint@Item@@UEAAAEAV1@_N@Z",
+				"?setShouldDespawn@Item@@UEAAAEAV1@_N@Z",
+				"?getBlockShape@Item@@UEBA?AW4BlockShape@@XZ",
+				"?canBeDepleted@Item@@UEBA_NXZ",
+				"?canDestroySpecial@Item@@UEBA_NAEBVBlock@@@Z",
+				"?getLevelDataForAuxValue@Item@@UEBAHH@Z",
+				"?isStackedByData@Item@@UEBA_NXZ",
+				"?getMaxDamage@Item@@UEBAFXZ",
+				"?getAttackDamage@Item@@UEBAHXZ",
+				"?isHandEquipped@Item@@UEBA_NXZ",
+				"?isArmor@Item@@UEBA_NXZ",
+				"?isDye@Item@@UEBA_NXZ",
+				"?isFertilizer@Item@@UEBA_NH@Z",
+				"?isGlint@Item@@UEBA_NAEBVItemStackBase@@@Z",
+				"?isThrowable@Item@@UEBA_NXZ",
+				"?isPattern@Item@@UEBA_NXZ",
+				"?showsDurabilityInCreative@Item@@UEBA_NXZ",
+				"?isWearableThroughLootTable@Item@@UEBA_NAEBV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@@Z",
+				"?canDestroyInCreative@Item@@UEBA_NXZ",
+				"?isDestructive@Item@@UEBA_NH@Z",
+				"?isLiquidClipItem@Item@@UEBA_NH@Z",
+				"?requiresInteract@Item@@UEBA_NXZ",
+				"?appendFormattedHovertext@Item@@UEBAXAEBVItemStackBase@@AEAVLevel@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z",
+				"?isValidRepairItem@Item@@UEBA_NAEBVItemInstance@@0@Z",
+				"?getEnchantSlot@Item@@UEBAHXZ",
+				"?getEnchantValue@Item@@UEBAHXZ",
+				"?getArmorValue@Item@@UEBAHXZ",
+				"?isComplex@Item@@UEBA_NXZ",
+				"?isValidAuxValue@Item@@UEBA_NH@Z",
+				"?getDamageChance@Item@@UEBAHH@Z",
+				"?uniqueAuxValues@Item@@UEBA_NXZ",
+				"?isMultiColorTinted@Item@@UEBA_NAEBVItemStack@@@Z",
+				"?getColor@Item@@UEBA?AVColor@@AEBV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@AEBVItemDescriptor@@@Z",
+				"?getBaseColor@Item@@UEBA?AVColor@@AEBVItemStack@@@Z",
+				"?getSecondaryColor@Item@@UEBA?AVColor@@AEBVItemStack@@@Z",
+				"?saveAdditionalData@Item@@UEBAXAEBVItemStackBase@@AEAVCompoundTag@@@Z",
+				"?readAdditionalData@Item@@UEBAXAEAVItemStackBase@@AEBVCompoundTag@@@Z",
+				"?isTintable@Item@@UEBA_NXZ",
+				"?use@Item@@UEBAAEAVItemStack@@AEAV2@AEAVPlayer@@@Z",
+				"?dispense@Item@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z",
+				"?useTimeDepleted@Item@@UEBA?AW4ItemUseMethod@@AEAVItemStack@@PEAVLevel@@PEAVPlayer@@@Z",
+				"?useTimeDepleted@Item@@UEBA?AW4ItemUseMethod@@AEAVItemInstance@@PEAVLevel@@PEAVPlayer@@@Z",
+				"?releaseUsing@Item@@UEBAXAEAVItemStack@@PEAVPlayer@@H@Z",
+				"?releaseUsing@Item@@UEBAXAEAVItemInstance@@PEAVPlayer@@H@Z",
+				"?getDestroySpeed@Item@@UEBAMAEBVItemInstance@@AEBVBlock@@@Z",
+				"?hurtEnemy@Item@@UEBAXAEAVItemStack@@PEAVMob@@1@Z",
+				"?hurtEnemy@Item@@UEBAXAEAVItemInstance@@PEAVMob@@1@Z",
+				"?mineBlock@Item@@UEBA_NAEAVItemStack@@AEBVBlock@@HHHPEAVActor@@@Z",
+				"?mineBlock@Item@@UEBA_NAEAVItemInstance@@AEBVBlock@@HHHPEAVActor@@@Z",
+				"?buildDescriptionId@Item@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVItemDescriptor@@AEBV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@3@@Z",
+				"?buildEffectDescriptionName@Item@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVItemStackBase@@@Z",
+				"?buildCategoryDescriptionName@Item@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ",
+				"?readUserData@Item@@UEBAXAEAVItemStackBase@@AEAVIDataInput@@AEAVReadOnlyBinaryStream@@@Z",
+				"?writeUserData@Item@@UEBAXAEBVItemStackBase@@AEAVIDataOutput@@@Z",
+				"?getMaxStackSize@Item@@UEBAEAEBVItemDescriptor@@@Z",
+				"?inventoryTick@Item@@UEBA_NAEAVItemStack@@AEAVLevel@@AEAVActor@@H_N@Z",
+				"?refreshedInContainer@Item@@UEBAXAEAVItemStackBase@@AEAVLevel@@@Z",
+				"?getCooldownType@Item@@UEBA?AW4CooldownType@@XZ",
+				"?getCooldownTime@Item@@UEBAHXZ",
+				"?fixupOnLoad@Item@@UEBAXAEAVItemStackBase@@AEAVLevel@@@Z",
+				"?fixupOnLoad@Item@@UEBAXAEAVItemStackBase@@@Z",
+				"?getDamageValue@Item@@UEBAFAEBV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@@Z",
+				"?setDamageValue@Item@@UEBAXAEAVItemStackBase@@F@Z",
+				"?getInHandUpdateType@Item@@UEBA?AW4InHandUpdateType@@AEBVPlayer@@AEBVItemStack@@1_N2@Z",
+				"?getInHandUpdateType@Item@@UEBA?AW4InHandUpdateType@@AEBVPlayer@@AEBVItemInstance@@1_N2@Z",
+				"?isSameItem@Item@@UEBA_NAEBVItemStackBase@@0@Z",
+				"?getInteractText@Item@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVPlayer@@@Z",
+				"?getAnimationFrameFor@Item@@UEBAHPEAVMob@@_NPEBVItemStack@@1@Z",
+				"?isEmissive@Item@@UEBA_NH@Z",
+				"?getIcon@Item@@UEBAAEBUTextureUVCoordinateSet@@AEBVItemStackBase@@H_N@Z",
+				"?getIconYOffset@Item@@UEBAHXZ",
+				"?setIcon@Item@@UEAAAEAV1@AEBUTextureUVCoordinateSet@@@Z",
+				"?setIcon@Item@@UEAAAEAV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+				"?setIconAtlas@Item@@UEAAAEAV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+				"?canBeCharged@Item@@UEBA_NXZ",
+				"?playSoundIncrementally@Item@@UEBAXAEBVItemStack@@AEAVMob@@@Z",
+				"?playSoundIncrementally@Item@@UEBAXAEBVItemInstance@@AEAVMob@@@Z",
+				"?getAuxValuesDescription@Item@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ",
+				"?_checkUseOnPermissions@Item@@EEBA_NAEAVActor@@AEAVItemStack@@AEBEAEBVBlockPos@@@Z",
+				"?_checkUseOnPermissions@Item@@EEBA_NAEAVActor@@AEAVItemInstance@@AEBEAEBVBlockPos@@@Z",
+				"?_calculatePlacePos@Item@@EEBA_NAEAVItemStack@@AEAVActor@@AEAEAEAVBlockPos@@@Z",
+				"?_calculatePlacePos@Item@@EEBA_NAEAVItemInstance@@AEAVActor@@AEAEAEAVBlockPos@@@Z",
+				"?_useOn@Item@@EEBA_NAEAVItemStack@@AEAVActor@@VBlockPos@@EMMM@Z",
+				"?_useOn@Item@@EEBA_NAEAVItemInstance@@AEAVActor@@VBlockPos@@EMMM@Z"
+			],
+			"name": "Item"
+		}
+	],
+	"variables": {
+		"bool& Item::mInCreativeGroup": "0x30507BA"
+	}
+}

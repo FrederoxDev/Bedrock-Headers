@@ -1,0 +1,287 @@
+{
+    "functions": [
+        {
+            "name": "?getItem@ItemStackBase@@QEBAPEBVItem@@XZ",
+            "address": "0x01B9250"
+        },
+        {
+            "address": "0x0",
+            "name": "?sameItem@ItemStackBase@@QEBA_NHH@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?_write@ItemStackBase@@QEBAXAEAVBinaryStream@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?_read@ItemStackBase@@QEAAXAEAVReadOnlyBinaryStream@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getDescriptor@ItemStackBase@@QEBA?AVItemDescriptor@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isNull@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?setNull@ItemStackBase@@QEAAXXZ"
+        },
+        {
+            "address": "0x156EF70",
+            "name": "?set@ItemStackBase@@QEAAXH@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?hasSameUserData@ItemStackBase@@QEBA_NAEBV1@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?hasSameAuxValue@ItemStackBase@@QEBA_NAEBV1@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?setUserData@ItemStackBase@@QEAAXV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getNetworkUserData@ItemStackBase@@QEBA?AV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?addCustomUserData@ItemStackBase@@QEAAXAEAVBlockActor@@AEAVBlockSource@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?isEnchanted@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getEnchantsFromUserData@ItemStackBase@@QEBA?AVItemEnchants@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?saveEnchantsToUserData@ItemStackBase@@QEAAXAEBVItemEnchants@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getMaxStackSize@ItemStackBase@@QEBAEXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isStackable@ItemStackBase@@QEBA_NAEBV1@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?isStackedByData@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isDamaged@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x15700E0",
+            "name": "?getAuxValue@ItemStackBase@@QEBAFXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?hurtAndBreak@ItemStackBase@@QEAAXHPEAVActor@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?sameItemAndAux@ItemStackBase@@QEBA_NAEBV1@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?getDescriptionId@ItemStackBase@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getName@ItemStackBase@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getRawNameId@ItemStackBase@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getId@ItemStackBase@@QEBAFXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getIdAux@ItemStackBase@@QEBAHXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isBlock@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?toString@ItemStackBase@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?matches@ItemStackBase@@QEBA_NAEBV1@@Z"
+        },
+        {
+            "address": "0x1571BF0",
+            "name": "?matchesItem@ItemStackBase@@QEBA_NAEBV1@@Z"
+        },
+        {
+            "address": "0x1571FB0",
+            "name": "?save@ItemStackBase@@QEBA?AV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isHorseArmorItem@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isWearableItem@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?isPotionItem@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getCustomName@ItemStackBase@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?getHoverName@ItemStackBase@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?setCustomName@ItemStackBase@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?setCustomLore@ItemStackBase@@QEAAXAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?hasCustomHoverName@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?setRepairCost@ItemStackBase@@QEAAXH@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?clearChargedItem@ItemStackBase@@QEAAXXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?setChargedItem@ItemStackBase@@QEAAXAEBVItemInstance@@_N@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?addComponents@ItemStackBase@@QEAA_NAEBVValue@Json@@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?hasComponent@ItemStackBase@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?updateComponent@ItemStackBase@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@@Z"
+        },
+        {
+            "address": "0x1575950",
+            "name": "?serializeComponents@ItemStackBase@@QEBAXAEAVIDataOutput@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?deserializeComponents@ItemStackBase@@QEAAXAEAVIDataInput@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?isExperimental@ItemStackBase@@QEBA_NXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?_setChargedItem@ItemStackBase@@AEAAXAEBVItemInstance@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?_makeChargedItemFromUserData@ItemStackBase@@AEAAXXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?_loadItem@ItemStackBase@@AEAAXAEBVCompoundTag@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?_updateCompareHashes@ItemStackBase@@AEAAXXZ"
+        },
+        {
+            "address": "0x0",
+            "name": "?_loadComponents@ItemStackBase@@AEAAXAEBVCompoundTag@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@XZ"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBVBlockLegacy@@H@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBVBlock@@HPEBVCompoundTag@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBVItem@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBVItem@@H@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBVItem@@HH@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBVItem@@HHPEBVCompoundTag@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "??0ItemStackBase@@IEAA@AEBV0@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?_setItem@ItemStackBase@@IEAA_NH@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?init@ItemStackBase@@IEAAXAEBVBlockLegacy@@H@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?init@ItemStackBase@@IEAAXAEBVItem@@HHPEBVCompoundTag@@@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?init@ItemStackBase@@IEAAXHHH@Z"
+        },
+        {
+            "address": "0x0",
+            "name": "?_getHoverFormattingPrefix@ItemStackBase@@IEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2b76af8",
+            "functions": [
+                "??1ItemStackBase@@MEAA@XZ",
+                "?reinit@ItemStackBase@@UEAAXAEBVBlockLegacy@@H@Z",
+                "?reinit@ItemStackBase@@MEAAXAEBVItem@@HH@Z"
+            ],
+            "name": "ItemStackBase"
+        }
+    ]
+}

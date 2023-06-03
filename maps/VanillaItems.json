@@ -1,0 +1,24 @@
+{
+	"functions": [
+		{
+			"name": "?unregisterItems@VanillaItems@@SAXXZ",
+			"address": "0x159F260"
+		},
+		{
+			"name": "?registerItems@VanillaItems@@SAX_N@Z",
+			"address": "0x1594D20"
+		},
+		{
+			"name": "?initCreativeCategories@VanillaItems@@SAXXZ",
+			"address": "0x15A3320"
+		},
+		{
+			"name": "?initCreativeItemsCallback@VanillaItems@@SAXPEAVActorInfoRegistry@@PEAVBlockDefinitionGroup@@_N@Z",
+			"address": "0x15A45F0"
+		},
+		{
+			"name": "?initClientData@VanillaItems@@SAXXZ",
+			"address": "0x15A01D0"
+		}
+	]
+}

@@ -1,0 +1,142 @@
+{
+	"functions": [
+		{
+			"name": "??1CompoundTag@@UEAA@XZ",
+			"address": "0x2affd88"
+		},
+		{
+			"address": "0x0FDBC40",
+			"name": "??0CompoundTag@@QEAA@XZ"
+		},
+		{
+			"address": "0x0FDBD10",
+			"name": "??0CompoundTag@@QEAA@$$QEAV0@@Z"
+		},
+		{
+			"address": "0xfdc0d0",
+			"name": "?put@CompoundTag@@QEAAPEAVTag@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$unique_ptr@VTag@@U?$default_delete@VTag@@@std@@@4@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?putByte@CompoundTag@@QEAAAEAEV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@E@Z"
+		},
+		{
+			"address": "0x0FDC270",
+			"name": "?putShort@CompoundTag@@QEAAAEAFV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@F@Z"
+		},
+		{
+			"address": "0x0FDC320",
+			"name": "?putInt@CompoundTag@@QEAAAEAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z"
+		},
+		{
+			"address": "0x0FDC480",
+			"name": "?putFloat@CompoundTag@@QEAAAEAMV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?putString@CompoundTag@@QEAAAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@0@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?putByteArray@CompoundTag@@QEAAAEAUTagMemoryChunk@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U2@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?putCompound@CompoundTag@@QEAAAEAV1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V1@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?putCompound@CompoundTag@@QEAAPEAV1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@3@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?putBoolean@CompoundTag@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?append@CompoundTag@@QEAAXAEBV1@@Z"
+		},
+		{
+			"address": "0x0FDCA00",
+			"name": "?contains@CompoundTag@@QEBA_NV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?contains@CompoundTag@@QEBA_NV?$basic_string_span@$$CBD$0?0@gsl@@W4Type@Tag@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getByte@CompoundTag@@QEBAEV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0FDCC50",
+			"name": "?getShort@CompoundTag@@QEBAFV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0FDCD10",
+			"name": "?getInt@CompoundTag@@QEBAHV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0FDCEB0",
+			"name": "?getFloat@CompoundTag@@QEBAMV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getString@CompoundTag@@QEBAAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getByteArray@CompoundTag@@QEBAAEBUTagMemoryChunk@@V?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getCompound@CompoundTag@@QEBAPEBV1@V?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getCompound@CompoundTag@@QEAAPEAV1@V?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getList@CompoundTag@@QEBAPEBVListTag@@V?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getList@CompoundTag@@QEAAPEAVListTag@@V?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?getBoolean@CompoundTag@@QEBA_NV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?deepCopy@CompoundTag@@QEAAXAEBV1@@Z"
+		},
+		{
+			"address": "0x0",
+			"name": "?clone@CompoundTag@@QEBA?AV?$unique_ptr@VCompoundTag@@U?$default_delete@VCompoundTag@@@std@@@std@@XZ"
+		},
+		{
+			"address": "0x0",
+			"name": "?remove@CompoundTag@@QEAA_NV?$basic_string_span@$$CBD$0?0@gsl@@@Z"
+		}
+	],
+	"vtable": [
+		{
+			"parent": "Tag",
+			"address": "0x2affd88",
+			"functions": [
+				"",
+				"?write@CompoundTag@@UEBAXAEAVIDataOutput@@@Z",
+				"?load@CompoundTag@@UEAAXAEAVIDataInput@@@Z",
+				"?toString@CompoundTag@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ",
+				"?getId@CompoundTag@@UEBA?AW4Type@Tag@@XZ",
+				"?equals@CompoundTag@@UEBA_NAEBVTag@@@Z",
+				"?print@CompoundTag@@UEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAVPrintStream@@@Z",
+				"?copy@CompoundTag@@UEBA?AV?$unique_ptr@VTag@@U?$default_delete@VTag@@@std@@@std@@XZ",
+				"?hash@CompoundTag@@UEBA_KXZ"
+			],
+			"name": "CompoundTag"
+		}
+	]
+}
