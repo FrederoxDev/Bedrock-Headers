@@ -1,0 +1,40 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "?parseDescription@Description@@QEAAPEAU1@AEAVValue@Json@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?registerAttributes@Description@@SAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?registerProperties@Description@@SAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?registerTriggers@Description@@SAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?registerComponents@Description@@SAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?registerJsonName@Description@@SAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2ae9a58", 
+            "functions": [
+                "?getJsonName@Description@@UEBAPEBDXZ", 
+                "", 
+                "?deserializeData@Description@@UEAAXAEAVValue@Json@@@Z", 
+                ""
+            ], 
+            "name": "Description"
+        }
+    ]
+}

@@ -15,7 +15,7 @@
 #include "Minecraft/Util/Vec.h"
 #include "Minecraft/Actor/ActorDefinitionIdentifier.h"
 #include "Minecraft/Actor/Description.h"
-#include "Minecraft/Dimension/DimensionType.h"
+#include "Minecraft/Dimension/AutomaticID.h"
 #include "Minecraft/Entity/EntityId.h"
 #include "Minecraft/Actor/ActorRuntimeID.h"
 #include "Minecraft/NBT/CompoundTag.h"
