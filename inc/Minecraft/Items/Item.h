@@ -6,7 +6,7 @@
 #include <memory>
 #include <functional>
 #include "Minecraft/Util/StringHash.h"
-#include "Minecraft/Util/Vec.h"
+#include "Minecraft/Math/Vec.h"
 #include "Minecraft/Util/Version.h"
 #include "Minecraft/Memory/SharedPtr.h"
 #include "Minecraft/Client/TextureUVCoordinateSet.h"

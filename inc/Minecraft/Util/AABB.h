@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Minecraft/Util/Vec.h"
+#include "Minecraft/Math/Vec.h"
 
 class AABB {
 public:
