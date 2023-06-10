@@ -1,0 +1,47 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "??0ActorFilterGroup@@QEAA@W4CollectionType@FilterGroup@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ActorFilterGroup@@QEAA@AEBV0@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "??0ActorFilterGroup@@QEAA@$$QEAV0@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?initialize@ActorFilterGroup@@SAXXZ"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?evaluate@ActorFilterGroup@@QEBA_NAEBVActor@@AEBVVariantParameterList@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_addLegacyFilter@ActorFilterGroup@@IEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBULegacyMapping@1@AEBVFilterInput@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_processLegacyMember@ActorFilterGroup@@IEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@AEBULegacyMapping@1@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_processLegacyArray@ActorFilterGroup@@IEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@AEBULegacyMapping@1@@Z"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2ae7ea0", 
+            "functions": [
+                "??1ActorFilterGroup@@UEAA@XZ", 
+                "?_createSubgroup@ActorFilterGroup@@MEBA?AV?$shared_ptr@VFilterGroup@@@std@@W4CollectionType@FilterGroup@@@Z", 
+                "?_handleUnknownMember@ActorFilterGroup@@MEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@@Z"
+            ], 
+            "name": "ActorFilterGroup"
+        }
+    ]
+}

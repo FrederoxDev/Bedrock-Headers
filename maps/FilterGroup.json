@@ -1,0 +1,53 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "?evaluate@FilterGroup@@QEBA_NAEAV?$array@UFilterContext@@$06@std@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?parse@FilterGroup@@QEAA_NAEBVValue@Json@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?addFilterTest@FilterGroup@@QEAA_NAEBUDefinition@FilterTest@@AEBUFilterInputs@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?serialize@FilterGroup@@QEBAXAEAVValue@Json@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_parseObject@FilterGroup@@IEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_parseMember@FilterGroup@@IEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_parseTest@FilterGroup@@IEAA_NAEBVValue@Json@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_parseFilterInputs@FilterGroup@@IEAA_NAEBVValue@Json@@AEBUDefinition@FilterTest@@AEAUFilterInputs@@@Z"
+        }, 
+        {
+            "address": "0x0", 
+            "name": "?_parseFilterParam@FilterGroup@@IEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBVValue@Json@@AEBUFilterParamDefinition@@AEAVFilterInput@@@Z"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "0x2ae7e78", 
+            "functions": [
+                "", 
+                "", 
+                "", 
+                "?_setupContext@FilterGroup@@MEBA_NAEBVFilterTest@@AEAUFilterContext@@@Z", 
+                "?_handleUnknownMember@FilterGroup@@MEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVValue@Json@@@Z"
+            ], 
+            "name": "FilterGroup"
+        }
+    ]
+}
