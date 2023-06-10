@@ -1,7 +1,41 @@
 #pragma once
 #include <sstream>
 
-class ChunkPos;
+ class ChunkPos {
+  public:
+    static const ChunkPos INVALID;
+    static const ChunkPos MIN;
+    static const ChunkPos MAX;
+    // union {
+    //     int64_t packed;
+    //     struct {...};
+    // };
+
+    static ChunkPos max(const ChunkPos &, const ChunkPos &);
+    static ChunkPos min(const ChunkPos &, const ChunkPos &);
+    ChunkPos(void);
+    ChunkPos(int, int);
+    ChunkPos(const BlockPos &);
+    ChunkPos(const Vec3 &);
+    size_t hashCode(void) const;
+    bool operator==(const ChunkPos &) const;
+    bool operator!=(const ChunkPos &) const;
+    ChunkPos & operator=(const ChunkPos &);
+    ChunkPos operator+(const ChunkPos &) const;
+    ChunkPos operator+(int) const;
+    ChunkPos operator-(const ChunkPos &) const;
+    ChunkPos operator-(int) const;
+    int distanceToSqr(const ChunkPos &) const;
+    float distanceToSqr(const Actor &) const;
+    ChunkPos north(void) const;
+    ChunkPos south(void) const;
+    ChunkPos east(void) const;
+	ChunkPos west(void) const;
+    bool isNeighbor(const ChunkPos &) const;
+    int getMiddleBlockX(void) const;
+    int getMiddleBlockZ(void) const;
+    BlockPos getMiddleBlockPosition(int) const;
+};
 
 class BlockPos {
 public:

@@ -1,0 +1,31 @@
+#pragma once
+
+enum class ActorCategory : unsigned int {
+  None,
+  Player,
+  Mob,
+  Monster = 4,
+  Humandoid = 8,
+  Animal = 16,
+  WaterSpawning = 32,
+  Pathable = 64,
+  Tamable = 128,
+  Ridable = 256,
+  Item = 1024,
+  Ambient = 2048,
+  Villager = 4096,
+  Arthropod = 8192,
+  Undead = 16384,
+  Zombie = 32768,
+  Minecart = 65536,
+  Boat = 131072,
+  NonTargetable = 262144,
+  BoatRideable = 131328,
+  MinecartRidable = 65792,
+  HumanoidMonster = 12,
+  WaterAnimal = 48,
+  TamableAnimal = 144,
+  UndeadMob = 16388,
+  ZombieMonster = 32772,
+  EvocationIllagerMonster = 4108
+};
