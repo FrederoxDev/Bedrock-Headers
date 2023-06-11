@@ -1,0 +1,23 @@
+{
+    "functions": [
+        {
+            "address": "0x0", 
+            "name": "??0SimpleContainer@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_NHW4ContainerType@@@Z"
+        }
+    ], 
+    "vtable": [
+        {
+            "address": "", 
+            "functions": [
+                "??1SimpleContainer@@UEAA@XZ", 
+                "?getItem@SimpleContainer@@UEBAAEBVItemStack@@H@Z", 
+                "?setItem@SimpleContainer@@UEAAXHAEBVItemStack@@@Z", 
+                "?getContainerSize@SimpleContainer@@UEBAHXZ", 
+                "?getMaxStackSize@SimpleContainer@@UEBAHXZ", 
+                "?startOpen@SimpleContainer@@UEAAXAEAVPlayer@@@Z", 
+                "?stopOpen@SimpleContainer@@UEAAXAEAVPlayer@@@Z"
+            ], 
+            "name": "SimpleContainer"
+        }
+    ]
+}

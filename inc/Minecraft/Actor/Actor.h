@@ -22,6 +22,11 @@
 #include "Minecraft/NBT/CompoundTag.h"
 #include "Minecraft/Actor/VariantParameterList.h"
 #include "Minecraft/Molang/MolangVariableMap.h"
+#include "Minecraft/Actor/Components.h"
+#include "Minecraft/Actor/BaseAttributeMap.h"
+#include "Minecraft/Actor/ActionQueue.h"
+#include "Minecraft/Container/SimpleContainer.h"
+#include "Minecraft/Actor/ActorTerrainInterlockData.h"
 
 class Packet;
 class DistanceSortedActor;
@@ -71,6 +76,8 @@ enum ArmorSlot;
 enum LevelSoundEvent;
 enum ActorFlags;
 enum ActorLocation;
+class ActorDefinitionDiffList;
+class MobEffectInstanceList;
 
 enum class PortalAxis : int {
 	Unknown, 

@@ -6,6 +6,7 @@
 #include <unordered_map>
 
 #include "Minecraft/Util/StringHash.h"
+#include "Minecraft/Molang/ExpressionNode.h"
 
 namespace Json {
 class Value;
