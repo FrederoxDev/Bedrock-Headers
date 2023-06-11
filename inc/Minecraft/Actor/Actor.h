@@ -27,6 +27,7 @@
 #include "Minecraft/Actor/ActionQueue.h"
 #include "Minecraft/Container/SimpleContainer.h"
 #include "Minecraft/Actor/ActorTerrainInterlockData.h"
+#include "Minecraft/Actor/RopeSystem.h"
 
 class Packet;
 class DistanceSortedActor;
@@ -88,7 +89,7 @@ enum class PortalAxis : int {
 
 class ActorDefinitionDescriptor {
   public:
-    std::unordered_set<Util::HashString, Util::HashString::HashFunc, std::equal_to<Util::HashString>, std::allocator<Util::HashString> > mComponentNames;
+    char filler0[56]; //std::unordered_set<Util::HashString, Util::HashString::HashFunc, std::equal_to<Util::HashString>, std::allocator<Util::HashString> > mComponentNames;
     IdentifierDescription mIdentifier;
     RuntimeIdentifierDescription mRuntimeIdentifier;
     IsSpawnableDescription mIsSpawnable;
@@ -96,10 +97,10 @@ class ActorDefinitionDescriptor {
     IsExperimentalDescription mIsExperimental;
     AnimationsDescription mAnimationsDescription;
     AnimationScriptsDescription mAnimationScriptsDescription;
-    std::vector<GoalDefinition, std::allocator<GoalDefinition> > mGoalDefinitions;
-    std::vector<ActorDefinitionAttribute, std::allocator<ActorDefinitionAttribute> > mAttributes;
+    char filler1[24]; // std::vector<GoalDefinition, std::allocator<GoalDefinition> > mGoalDefinitions;
+    char filler2[24]; //std::vector<ActorDefinitionAttribute, std::allocator<ActorDefinitionAttribute> > mAttributes;
     std::unordered_map<std::string, DefinitionEvent, std::hash<std::string>, std::equal_to<std::string >, std::allocator<std::pair<std::string const, DefinitionEvent> > > mEventHandlers;
-    DefinitionInstanceGroup mComponentDefinitionGroup;
+    char filler3[136]; //DefinitionInstanceGroup mComponentDefinitionGroup;
     Description *mAttack;
     Description *mMobEffects;
     Description *mAmbientSoundInterval;
@@ -221,21 +222,21 @@ class ActorDefinitionDescriptor {
     void executeEvent(Actor &, const std::string &, const VariantParameterList &);
     bool executeTrigger(Actor &, const DefinitionTrigger &, const VariantParameterList &);
     void forceExecuteTrigger(Actor &, const DefinitionTrigger &, const VariantParameterList &);
-    const ExplodeDefinition * tryGetComponentDefinition<ExplodeDefinition>(void);
-    const BreedableDefinition * tryGetComponentDefinition<BreedableDefinition>(void);
-    const BribeableDefinition * tryGetComponentDefinition<BribeableDefinition>(void);
-    const ScaleByAgeDefinition * tryGetComponentDefinition<ScaleByAgeDefinition>(void);
-    const AddRiderDefinition * tryGetComponentDefinition<AddRiderDefinition>(void);
-    const LegacyTradeableDefinition * tryGetComponentDefinition<LegacyTradeableDefinition>(void);
-    const BalloonDefinition * tryGetComponentDefinition<BalloonDefinition>(void);
-    const AgeableDefinition * tryGetComponentDefinition<AgeableDefinition>(void);
-    const BreathableDefinition * tryGetComponentDefinition<BreathableDefinition>(void);
-    const DamageOverTimeDefinition * tryGetComponentDefinition<DamageOverTimeDefinition>(void);
-    const GeneticsDefinition * tryGetComponentDefinition<GeneticsDefinition>(void);
-    const HomeDefinition * tryGetComponentDefinition<HomeDefinition>(void);
-    const GrowsCropDefinition * tryGetComponentDefinition<GrowsCropDefinition>(void);
-    const InsomniaDefinition * tryGetComponentDefinition<InsomniaDefinition>(void);
-    const MountTameableDefinition * tryGetComponentDefinition<MountTameableDefinition>(void);
+    // const ExplodeDefinition * tryGetComponentDefinition<ExplodeDefinition>(void);
+    // const BreedableDefinition * tryGetComponentDefinition<BreedableDefinition>(void);
+    // const BribeableDefinition * tryGetComponentDefinition<BribeableDefinition>(void);
+    // const ScaleByAgeDefinition * tryGetComponentDefinition<ScaleByAgeDefinition>(void);
+    // const AddRiderDefinition * tryGetComponentDefinition<AddRiderDefinition>(void);
+    // const LegacyTradeableDefinition * tryGetComponentDefinition<LegacyTradeableDefinition>(void);
+    // const BalloonDefinition * tryGetComponentDefinition<BalloonDefinition>(void);
+    // const AgeableDefinition * tryGetComponentDefinition<AgeableDefinition>(void);
+    // const BreathableDefinition * tryGetComponentDefinition<BreathableDefinition>(void);
+    // const DamageOverTimeDefinition * tryGetComponentDefinition<DamageOverTimeDefinition>(void);
+    // const GeneticsDefinition * tryGetComponentDefinition<GeneticsDefinition>(void);
+    // const HomeDefinition * tryGetComponentDefinition<HomeDefinition>(void);
+    // const GrowsCropDefinition * tryGetComponentDefinition<GrowsCropDefinition>(void);
+    // const InsomniaDefinition * tryGetComponentDefinition<InsomniaDefinition>(void);
+    // const MountTameableDefinition * tryGetComponentDefinition<MountTameableDefinition>(void);
 };
 
 class Actor {
@@ -251,7 +252,7 @@ class Actor {
   };
 
  private:
-  OwnerPtr<EntityId> mEntity;
+  char filler1[24]; // OwnerPtr<EntityId> mEntity;
   Actor::InitializationMethod mInitMethod;
   std::string mCustomInitEventName;
   VariantParameterList mInitParams;
@@ -280,8 +281,8 @@ class Actor {
   int mAmbientSoundTime;
   int mLastHurtByPlayerTime;
   ActorCategory mCategories;
-  SynchedActorData mEntityData;
-  std::unique_ptr<SpatialActorNetworkData> mNetworkData;
+  char filler2[32]; //SynchedActorData mEntityData;
+  char filler3[80]; // std::unique_ptr<SpatialActorNetworkData> mNetworkData;
   Vec3 mSentDelta;
   float mScale;
   float mScalePrev;
@@ -390,7 +391,7 @@ class Actor {
   float mRestrictRadius;
   BlockPos mRestrictCenter;
   ActorUniqueID mInLovePartner;
-  MobEffectInstanceList mMobEffects;
+  char filler4[24]; // MobEffectInstanceList mMobEffects;
   bool mEffectsDirty;
   bool mPersistingTrade;
   std::unique_ptr<CompoundTag> mPersistingTradeOffers;
@@ -592,7 +593,7 @@ class Actor {
   virtual bool save(CompoundTag &);
   virtual void saveWithoutId(CompoundTag &);
   virtual bool load(const CompoundTag &, DataLoadHelper &);
-  // loadLinks
+  virtual void loadLinks(const CompoundTag&, std::vector<ActorLink>&, DataLoadHelper&);
   virtual ActorType getEntityTypeId() const;
   virtual const HashedString &queryEntityRenderer() const;
   virtual ActorUniqueID getSourceUniqueID() const;
@@ -642,7 +643,7 @@ class Actor {
   virtual void useItem(ItemStack &, ItemUseMethod, bool);
   virtual bool hasOutputSignal(unsigned char) const;
   virtual int getOutputSignal() const;
-  // getDebugText
+  virtual void getDebugText(std::vector<std::string> &);
   virtual float getMapDecorationRotation() const;
   virtual float getRiderYRotation(const Actor &) const;
   virtual float getYHeadRot() const;

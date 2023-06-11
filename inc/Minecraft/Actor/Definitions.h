@@ -2,6 +2,7 @@
 #include <set>
 #include <string>
 
+#include "Minecraft/Actor/ActorFilterGroup.h"
 #include "Minecraft/Items/Item.h"
 #include "Minecraft/Math/Range.h"
 
@@ -19,6 +20,7 @@ class GeneticsComponent;
 class GrowsCropComponent;
 class InsomniaComponent;
 class MountTamingComponent;
+class DefinitionModifier;
 
 namespace JsonUtil {
 template <typename T>
@@ -32,6 +34,33 @@ class DefinitionTrigger {
   ActorFilterGroup mFilter;
 
   bool canTrigger(const Actor &, const VariantParameterList &) const;
+};
+
+enum class DefinitionEventType : int {LEAF, SEQUENCE, RANDOM, NONE};
+
+class DefinitionEvent {
+ public:
+  float mProbability;
+  ActorFilterGroup mFilter;
+  std::string mName;
+  DefinitionEventType mType;
+  std::vector<
+      std::basic_string<char, std::char_traits<char>, std::allocator<char> >,
+      std::allocator<std::basic_string<char, std::char_traits<char>,
+                                       std::allocator<char> > > >
+      mGroups;
+  std::vector<
+      std::basic_string<char, std::char_traits<char>, std::allocator<char> >,
+      std::allocator<std::basic_string<char, std::char_traits<char>,
+                                       std::allocator<char> > > >
+      mRemoveGroups;
+  std::vector<DefinitionEvent, std::allocator<DefinitionEvent> > mChildren;
+
+  DefinitionEvent(void);
+  void evaluateGroups(
+      Actor &,
+      std::vector<DefinitionModifier, std::allocator<DefinitionModifier> > &,
+      const VariantParameterList &);
 };
 
 // Begin Definitions

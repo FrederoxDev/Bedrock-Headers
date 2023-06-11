@@ -7,7 +7,7 @@
     ], 
     "vtable": [
         {
-            "address": "", 
+            "address": "0x2bd8ca0", 
             "functions": [
                 "??1SimpleContainer@@UEAA@XZ", 
                 "?getItem@SimpleContainer@@UEBAAEBVItemStack@@H@Z", 

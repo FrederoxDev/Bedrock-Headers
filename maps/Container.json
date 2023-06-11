@@ -15,7 +15,7 @@
     ], 
     "vtable": [
         {
-            "address": "", 
+            "address": "0x2b64268", 
             "functions": [
                 "??1Container@@UEAA@XZ", 
                 "?init@Container@@UEAAXXZ", 
