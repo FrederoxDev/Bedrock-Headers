@@ -240,6 +240,7 @@ class ActorDefinitionDescriptor {
 };
 
 class Actor {
+  public:
   enum class InitializationMethod : unsigned char {
     INVALID,
     LOADED,
